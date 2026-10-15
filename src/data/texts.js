@@ -12,7 +12,7 @@ const texts = {
             title: "Hej, jag heter Albin",
             subtitle: "Mjukvaruutvecklare under utbildning på Jönköping University. Jag bygger allt från webbappar till smarta hem lösningar och gillar att se när kod möter hårdvara",
             cvButton: "Ladda ner mitt CV",
-            cvFile: "cv-sv.pdf",
+            cvFile: "cv-se.pdf",
         },
         about: {
             title: "Om mig",
