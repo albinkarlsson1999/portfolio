@@ -53,7 +53,7 @@ const texts = {
             title: "Hello, my name is Albin",
             subtitle: "Software developer student at Jönköping University. I build everything from web apps to smart home solutions and I love it when code meets hardware.",
             cvButton: "Download CV",
-            cvFile: "cv-sv.pdf",
+            cvFile: "cv-en.pdf",
         },
         about: {
             title: "About me",
