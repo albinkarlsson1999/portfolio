@@ -1,6 +1,6 @@
 import texts from "../data/texts.js";
-function Hero() {
-    const t = texts.sv.hero
+function Hero({lang}) {
+    const t = texts[lang].hero
     return (
         <section id="hero">
             <h1>{t.title}</h1>

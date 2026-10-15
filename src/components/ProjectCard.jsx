@@ -1,6 +1,6 @@
 import texts from '../data/texts.js'
-function ProjectCard({project}) {
-    const t = texts.sv.projects
+function ProjectCard({project, lang}) {
+    const t = texts[lang].projects
     return (
         <article className="project-card">
             <h3>{project.title.sv}</h3>

@@ -1,6 +1,6 @@
 import texts from "../data/texts.js"
-function Navbar() {
-    const t = texts.sv.nav
+function Navbar({ lang }) {
+    const t = texts[lang].nav
     return (
         <nav id="navbar">
             <a href="#hero">

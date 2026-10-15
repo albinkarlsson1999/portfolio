@@ -1,7 +1,7 @@
 import texts from '../data/texts.js';
 import contact from '../data/contact.js';
-function Contact() {
-    const t = texts.sv.contact
+function Contact({ lang }) {
+    const t = texts[lang].contact
     const c = contact;
     return (
         <section id="contact">

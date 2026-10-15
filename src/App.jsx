@@ -3,16 +3,18 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import {useState} from 'react'
 
 function App() {
+    const [lang, setLang] = useState('sv');
   return (
       <>
-        <Navbar />
+        <Navbar lang={lang} setLang={setLang} />
         <main>
-          <Hero />
-          <About />
-          <Projects />
-          <Contact />
+          <Hero lang={lang}/>
+          <About lang={lang}/>
+          <Projects lang={lang}/>
+          <Contact lang={lang}/>
         </main>
       </>
   )

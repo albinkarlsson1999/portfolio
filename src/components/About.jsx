@@ -1,6 +1,6 @@
 import texts from "../data/texts.js"
-function About() {
-    const a = texts.sv.about
+function About({ lang }) {
+    const a = texts[lang].about
     return (
         <section id="about">
             <h2>{a.title}</h2>
