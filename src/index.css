@@ -254,6 +254,15 @@ dialog:focus {
   text-align: center;
 }
 
+.avatar {
+  width: 140px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 600px) {
   .name-long {
     display: none;
