@@ -5,6 +5,8 @@ const texts = {
             projects: "Mina projekt",
             skills: "Mina kompetenser",
             contact: "Kontakt",
+            aboutShort: "Om",
+            projectsShort: "Projekt",
         },
         hero: {
             title: "Hej, jag heter Albin",
@@ -38,6 +40,8 @@ const texts = {
             projects: "Projects",
             skills: "Skills",
             contact: "Contact",
+            aboutShort: "About",
+            projectsShort: "Projects",
         },
         hero: {
             title: "Hello, my name is Albin",
