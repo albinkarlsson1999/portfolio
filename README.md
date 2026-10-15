@@ -19,11 +19,13 @@ React · Vite · CSS · GitHub Actions · GitHub Pages
 
 ## Project structure
 
+```text
 src/
-├── components/ # Navbar, Hero, About, Projects, ProjectCard, Contact, Footer
-├── data/ # texts.js (sv/en), projects.js, contact.js
-├── App.jsx # Holds the language state
-└── index.css # All styles
+├── components/   # Navbar, Hero, About, Projects, ProjectCard, Contact, Footer
+├── data/         # texts.js (sv/en), projects.js, contact.js
+├── App.jsx       # Holds the language state
+└── index.css     # All styles
+```
 
 ## Run locally
 
