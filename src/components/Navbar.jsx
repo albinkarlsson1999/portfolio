@@ -3,11 +3,29 @@ function Navbar() {
     const t = texts.sv.nav
     return (
         <nav id="navbar">
-            <a href="#hero">Albin Karlsson</a>
+            <a href="#hero">
+                <span className="name-long">Albin Karlsson</span>
+                <span className="name-short">AK</span>
+            </a>
+
             <ul>
-                <li><a href="#about">{t.about}</a></li>
-                <li><a href="#projects">{t.projects}</a></li>
-                <li><a href="#contact">{t.contact}</a></li>
+                <li>
+                    <a href="#about">
+                        <span className="name-long">{t.about}</span>
+                        <span className="name-short">Om</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <span className="name-long">{t.projects}</span>
+                        <span className="name-short">Projekt</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        {t.contact}
+                    </a>
+                </li>
             </ul>
         </nav>)
 }
