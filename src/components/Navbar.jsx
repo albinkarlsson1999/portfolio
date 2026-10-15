@@ -1,5 +1,5 @@
 import texts from "../data/texts.js"
-function Navbar({ lang }) {
+function Navbar({ lang, setLang }) {
     const t = texts[lang].nav
     return (
         <nav id="navbar">
@@ -7,7 +7,7 @@ function Navbar({ lang }) {
                 <span className="name-long">Albin Karlsson</span>
                 <span className="name-short">AK</span>
             </a>
-
+        <div className="nav-right">
             <ul>
                 <li>
                     <a href="#about">
@@ -27,6 +27,18 @@ function Navbar({ lang }) {
                     </a>
                 </li>
             </ul>
+
+            <button
+                className={`lang-toggle ${lang === "en" ? "is-en" : ""}`}
+                onClick={() => setLang(lang === "sv" ? "en" : "sv")}
+                role="switch"
+                aria-checked={lang === "en"}
+                aria-label="Språk / Language"
+            >
+                <span>SV</span>
+                <span>EN</span>
+            </button>
+        </div>
         </nav>)
 }
 
