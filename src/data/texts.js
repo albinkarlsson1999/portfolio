@@ -12,6 +12,7 @@ const texts = {
             title: "Hej, jag heter Albin",
             subtitle: "Mjukvaruutvecklare under utbildning på Jönköping University. Jag bygger allt från webbappar till smarta hem lösningar och gillar att se när kod möter hårdvara",
             cvButton: "Ladda ner mitt CV",
+            cvFile: "cv-sv.pdf",
         },
         about: {
             title: "Om mig",
@@ -51,7 +52,8 @@ const texts = {
         hero: {
             title: "Hello, my name is Albin",
             subtitle: "Software developer student at Jönköping University. I build everything from web apps to smart home solutions and I love it when code meets hardware.",
-            cvButton: "Download CV"
+            cvButton: "Download CV",
+            cvFile: "cv-sv.pdf",
         },
         about: {
             title: "About me",
