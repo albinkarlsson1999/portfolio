@@ -1,16 +1,42 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website, built with React and Vite and deployed to GitHub Pages.
 
-Currently, two official plugins are available:
+🔗 **Live:** https://albinkarlsson1999.github.io/portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Bilingual** – switch between Swedish and English with a toggle in the navbar
+- **Data-driven** – texts and projects live in separate data files, so adding a project means adding one object to an array
+- **Responsive** – CSS Grid layout that adapts from desktop to mobile without breakpoints for the project cards
+- **Image lightbox** – click a project image to view it full size, built on the native `<dialog>` element
+- **Accessible** – semantic HTML, alt texts, ARIA attributes and visible keyboard focus
+- **Automatic deployment** – every push to `main` is built and published with GitHub Actions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the ESLint configuration
+React · Vite · CSS · GitHub Actions · GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project structure
+
+```text
+src/
+├── components/   # Navbar, Hero, About, Projects, ProjectCard, Contact, Footer
+├── data/         # texts.js (sv/en), projects.js, contact.js
+├── App.jsx       # Holds the language state
+└── index.css     # All styles
+```
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173/portfolio/
+
+## License
+
+The source code is licensed under the [MIT License](LICENSE).
+Personal content – texts, images and the CV – is © Albin Karlsson and may not be reused without permission.
