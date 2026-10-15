@@ -32,12 +32,17 @@ const texts = {
         contact: {
             title: "Kontakt",
             text: "Vill du prata praktik, jobb eller projekt? Hör gärna av dig!"
+        },
+        footer: {
+            builtWith: "Byggd med React och Vite",
+            source: "Källkod",
+            rights: "Alla rättigheter förbehållna"
         }
     },
     en: {
         nav: {
             about: "About me",
-            projects: "Projects",
+            projects: "My Projects",
             skills: "Skills",
             contact: "Contact",
             aboutShort: "About",
@@ -67,7 +72,12 @@ const texts = {
         contact: {
             title: "Contact me",
             text: "Want to talk internships, jobs or projects? Feel free to reach out!",
-            },
+        },
+        footer: {
+            builtWith: "Built with React and Vite",
+            source: "Source code",
+            rights: "All rights reserved."
+        }
         },
     };
 

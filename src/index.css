@@ -250,6 +250,10 @@ dialog:focus {
   transform: scale(1.08);
 }
 
+.footer {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .name-long {
     display: none;

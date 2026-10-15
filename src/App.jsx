@@ -4,6 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import {useState} from 'react'
+import Footer from "./components/Footer.jsx";
 
 function App() {
     const [lang, setLang] = useState('sv');
@@ -15,6 +16,7 @@ function App() {
           <About lang={lang}/>
           <Projects lang={lang}/>
           <Contact lang={lang}/>
+            <Footer lang={lang}/>
         </main>
       </>
   )
