@@ -12,7 +12,7 @@ function ProjectCard({project}) {
             </div>
 
             { project.link && (
-                <a href={project.link} target="_blank" rel="noopener noreferrer">{t.codeLink}</a>
+                <a className="button" href={project.link} target="_blank" rel="noopener noreferrer">{t.codeLink}</a>
             )}
         </article>)
 }
